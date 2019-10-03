@@ -80,7 +80,8 @@ p {
     padding: 4px;
     float: right;
     width: 600px;
-    height: 250px;
+    max-height: 300px;
+    overflow: scroll;
 }
 
 .changing {
@@ -230,5 +231,9 @@ input, textarea {
     }
     .portfolio-pic {
         width:100%;
+    }
+    .text-block {
+        left:12%;
+        width: 162px;
     }
 }
