@@ -1,7 +1,24 @@
 body {
     background-color: rgb(199, 207, 216);
 }
-
+nav {
+    background-color: #78a8cf;
+    height: 45px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 23px;
+}
+nav a {
+text-decoration: none;
+text-transform: uppercase;
+}
 h2 {
     font-family: 'Times New Roman', Times, serif;
     width: 25%;
@@ -156,6 +173,7 @@ input, textarea {
     padding: 20px;
     left: 19%;
 }
+
 @media screen and (max-width:980px) {
 .container {
     max-width: 100%;
