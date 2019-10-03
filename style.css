@@ -93,10 +93,10 @@ p {
     color: #444343;
     background-color: #97b3ca;
     text-align: center;
-    margin: 30px 20px 30px 10px;
-    padding: 4px;
     float: right;
     width: 600px;
+    margin: 30px 20px 30px 10px;
+    padding: 4px;
     max-height: 300px;
     overflow: scroll;
 }
@@ -107,10 +107,10 @@ p {
     font-size: 16;
     color: #4d4c4c;
     border: 4px solid rgb(38, 82, 95);
-    margin: 10px 70px 30px 50px ;
-    padding: 8px;
     height: 200px;
     width: 400px;
+    margin: 10px 70px 30px 50px ;
+    padding: 8px;
     float: right;
 }
 
@@ -175,6 +175,10 @@ input, textarea {
 }
 
 @media screen and (max-width:980px) {
+
+ .header { 
+    width:220px;
+    }
 .container {
     max-width: 100%;
 }
@@ -182,28 +186,32 @@ input, textarea {
     max-width: 30%;
 }
 .box {
-   max-width: 70%; 
+    max-width: 70%; 
 }
 .changing {
- width:45%;
+     width:45%;
 }
 .submission-form {
-    width: 100%;
+    max-width: 500px;
+    margin: 150px 110px 110px 230px;
+    padding: 40px;
 }
 .portfolio-pic {
-    width: 100%;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
 }
 }
 @media screen and (max-width:768px) {
-    .header {
+     .header { 
         width:220px;
     }
     .container {
         max-width:100%;
     }
     .profile-pic {
-       width: 100%;
-       
+       width: 220px; 
+       height:220px; 
     }
     .box {
         width: 100%;
@@ -214,13 +222,24 @@ input, textarea {
      height: 100px;
     }
     .submission-form {
-        width: 100%;
-        margin:172px 142px 150px 77px;
+        width: 355px;
+        margin:176px 142px 150px 144px;
+    }
+    .text-block {
+        position: absolute;
+        bottom: 12%;
+        background: rgb(42, 58, 148);
+        opacity: 0.8;
+        color: #f1f1f1;
+        width: 151px;
+        padding: 20px;
+        left: 19%;
     }
     .portfolio-pic {
-        width:100%;
+        height: 214px;
+        width: 187px;
+        margin: 11px;
     }
-
 }
 @media screen and (max-width:460px) {
     .header {
@@ -229,29 +248,41 @@ input, textarea {
     .container {
         max-width: 100%;
     }
-    .profile-pic {
-       width: 200px;
-       height: 200px;
-    }
     .box {
         width: 100%;
         height: 350px;
-        margin-top: 2px;
+        padding: 0;
+       
+    }
+    .profile-pic {
+        width: 170px;
+        height: 168px;
     }
     .changing {
        width: 60%;
        height: 100px;
+       padding: 0;
+       overflow: scroll;
+      
     }
     .submission-form {
-        width: 300px;
-        margin:94px 142px 150px 35px;
+        width: 250px;
+        margin:140px 142px 150px 19px;
 
     }
     .portfolio-pic {
-        width:100%;
+        height: 188px;
+        width: 172px;
+        margin: 0px;
     }
     .text-block {
-        left:12%;
-        width: 162px;
+        left:9%;
+        width: 120px;
+    }
+    .grid-item {
+        position: relative;
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
     }
 }
