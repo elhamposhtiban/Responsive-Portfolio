@@ -91,7 +91,7 @@ p {
     border: 4px solid rgb(38, 82, 95);
     margin: 10px 70px 30px 50px ;
     padding: 8px;
-    height: 250px;
+    height: 200px;
     width: 400px;
     float: right;
 }
@@ -157,43 +157,46 @@ input, textarea {
 }
 @media screen and (max-width:980px) {
 .container {
-    max-width:100%;
+    max-width: 100%;
 }
 .profile-pic {
-    max-width:30%;
+    max-width: 30%;
 }
 .box {
-   max-width:70%; 
+   max-width: 70%; 
 }
 .changing {
- width:55%;
+ width:45%;
 }
 .submission-form {
-    width: 400px;
+    width: 100%;
 }
 .portfolio-pic {
-    width:100%;
+    width: 100%;
 }
 }
 @media screen and (max-width:768px) {
+    .header {
+        width:220px;
+    }
     .container {
-        width:100%;
+        max-width:100%;
     }
     .profile-pic {
-       width: 30%;
+       width: 100%;
        
     }
     .box {
-        width: 70%;
-    }
-    .box {
+        width: 100%;
         margin-top: 1px;
     }
     .changing {
-     width:400px;
+     width:60%;
+     height: 100px;
     }
     .submission-form {
         width: 100%;
+        margin:172px 142px 150px 77px;
     }
     .portfolio-pic {
         width:100%;
@@ -201,18 +204,29 @@ input, textarea {
 
 }
 @media screen and (max-width:460px) {
+    .header {
+        width:220px;
+    }
     .container {
-        width:100%;
+        max-width: 100%;
     }
     .profile-pic {
-        widows: 100px;
-        height: 100px;
+       width: 200px;
+       height: 200px;
+    }
+    .box {
+        width: 100%;
+        height: 350px;
+        margin-top: 2px;
     }
     .changing {
-    width: 300px;
+       width: 60%;
+       height: 100px;
     }
     .submission-form {
-        width: 100%;
+        width: 300px;
+        margin:94px 142px 150px 35px;
+
     }
     .portfolio-pic {
         width:100%;
